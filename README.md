@@ -1,13 +1,22 @@
-# product-detail
-The product detail page will show relevant information for a single product in the catalogue.
+# The Proto Company
+<img src="https://fec-image-bucket.s3-us-west-2.amazonaws.com/Screen+Shot+2020-10-05+at+8.33.31+PM.png" />
+## Table of Contents
 
-## Product Detail Page
-The product detail page will show relevant information for a single product in the catalogue.  Our catalogue is organized by *products*.  One single product can be associated with many sizes and styles which each result in unique SKUs (stock keeping units).  The product detail page will present items at the product level.  Further breakdown by style or size will only be reflected within the product detail page.
+- [Product Overview](#product-overview-page)
+- [Features](#features)
+- [Feedback](#feedback)
+- [Build Process](#build-process)
+- [Tech Stack](#tech-stack)
 
-The same product detail page will be shown for every product in the catalogue.  Upon navigating to the product detail page or selecting a new product to display, the contents of the page will update to show information relevant to the selected product. 
+## Product Overview Page
+The product overview page displays relevant information for a single product in the catalogue. The Proto Company catalogue is organized by *products*. One single product can be associated with many sizes and styles which each result in unique SKUs (stock keeping units). The product overview page presents items at the product level. Further breakdown by style or size is only reflected within the product detail page.
 
-The item detail page will be comprised of distinct modules.  Each module will display information related to the product being displayed.   
-The Overview module will be the top-most module on the Product Detail page.  The functionality contained within this module can be divided into several pieces:
+The same product detail page is displayed for every product in the catalogue. Upon navigating to the product detail page, using the searchbar to find a product, or selecting a new product to display, the contents of the page updates to show information relevant to the selected product. 
+
+## Features
+
+The item detail page is comprised of distinct modules. Each module displays information related to the product being displayed.   
+The Overview module is the top-most module on the Product Detail page of The Proto Company website. The functionality contained within this module can be divided into several pieces:
 
 	1. Image gallery 
 		1. Default View
@@ -38,6 +47,7 @@ The Overview module will be the top-most module on the Product Detail page.  The
 			* Pinterest
 			* Twitter
 			* Facebook
+			* Email
 	3. Style Selector
 		* Thumbnails
 		* Rows
@@ -57,4 +67,47 @@ The Overview module will be the top-most module on the Product Detail page.  The
 			* If there is no stock: This button should be hidden
 			* If both a valid size and valid quantity are selected: Clicking this button will add the product to the user’s cart.
 
-## Sprint 1
+## Feedback
+
+Feel free to [file an issue](https://github.com/callback-kids/product-detail/issues/new). Feature requests are always welcome. If you wish to contribute, please submit a [pull request](https://github.com/callback-kids/product-detail/issues)
+
+## Build Process
+## Build Process
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Tech Stack
+- JavaScript
+- HTML5
+- CSS3
+- ReactJS and React Hooks
+- NodeJS
+- ExpressJS
+- Jest
+- Enzyme
+- React-Bootstrap
